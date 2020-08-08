@@ -645,6 +645,7 @@ SCOUT1:
 		TurnSpeed: 40
 		Speed: 170
 		Locomotor: pod
+		Voice: Action
 	RevealsShroud:
 		Range: 8c0
 	Armament:
@@ -658,6 +659,8 @@ SCOUT1:
 	Passenger:
 		CargoType: Scout
 	-Carryable:
+	Voiced:
+		VoiceSet: PodVoice
 
 SCOUT2:
 	Inherits: ^Vehicle
@@ -681,6 +684,7 @@ SCOUT2:
 		TurnSpeed: 40
 		Speed: 170
 		Locomotor: pod
+		Voice: Action
 	RevealsShroud:
 		Range: 8c0
 	Armament@PRIMARY:
@@ -699,6 +703,8 @@ SCOUT2:
 	Passenger:
 		CargoType: Scout
 	-Carryable:
+	Voiced:
+		VoiceSet: PodVoice
 
 BUILDER:
 	Inherits: ^Vehicle

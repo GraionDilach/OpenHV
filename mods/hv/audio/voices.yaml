@@ -25,3 +25,9 @@ GenericVoice3:
 		Select: awaiting_orders, im_ready, receiving, yes_sir
 		Move: acknowledged, affirmative, as_you_wish, at_once, en route, lets_go, move_out, on_my_way, orders received, ten_four
 		Action: attack, destroy_them, hit_them_hard, light_em_up, target_locked, you_got_it
+
+PodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: podselect1, podselect2, podselect3, podselect4
+		Action: podaction1, podaction2, podaction3, podaction4, podaction5, podaction6, podaction7
