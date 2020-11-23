@@ -51,6 +51,7 @@ SHIP1:
 SHIP2:
 	Inherits: ^Plane
 	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	Inherits@MAGAZINECASING: ^DropShellCasing
 	Buildable:
 		Queue: Aircraft
 		BuildPaletteOrder: 30
